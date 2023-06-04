@@ -1,0 +1,26 @@
+body{
+    background: red;
+}
+main{
+    background: url("back.png");
+}
+.back{
+    width: 50%;
+    height: 50%;
+    
+    display: flex;
+    margin: auto;
+}
+
+
+.content{
+    padding: 15%;
+    border: 1px solid blue;
+}
+
+.content::after{
+    content: "Hello world";
+    display: block;
+    color: red;
+
+}
